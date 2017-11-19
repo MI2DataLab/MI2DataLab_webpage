@@ -3,7 +3,24 @@
 
   {% include head.html %}
 
+<script>
+$(function(){
+    $(".flip").flip({
+        trigger: 'hover'
+    });
+});
+</script>
+
   <body>
+
+<div class="flip"> 
+    <div class="front"> 
+        <img src="/fig/mi2.jpg" alt="" />
+    </div> 
+    <div class="back">
+        <h3>Some Text in the Back!</h3>
+    </div> 
+</div>
 
     {% include header.html %}
 
