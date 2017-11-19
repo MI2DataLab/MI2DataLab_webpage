@@ -1,8 +1,6 @@
 <!DOCTYPE html>
 <html>
-
   {% include head.html %}
-
 <script>
 $(function(){
     $(".flip").flip({
@@ -12,39 +10,48 @@ $(function(){
 </script>
 
   <body>
-
     {% include header.html %}
-
     <div class="page-content">
       <div class="wrapper">
 
     <div class="footer-col-wrapper">
-      <div class="main-col main-col-1">
-      	<h2>Research</h2>
-      </div>
-      <div class="main-col main-col-2">
+      <div class="main-col main-col-3">
 <div class="flip"> 
     <div class="front"> 
-        <img src="figs/mi2.jpg" alt="" />
+        <img src="figs/mi2archivist.jpg" alt="" />
     </div> 
     <div class="back">
-        <h3>TEST!</h3>
+        <h3>archivist</h3> An ultimate tool for full reproducibility of your results. Save, read, share your objects.<br/>
+        <a href="https://github.com/pbiecek/archivist">GitHub</a>
     </div> 
 </div>
       </div>
       <div class="main-col main-col-3">
-      	<h2>Fun</h2>
-      	<p><a href="https://github.com/BetaAndBit">R package: BetaBit</a><br/>
-      	Datasets and functions from ,,Beta Bit'' stories for kids.</p>
-      	<p>
-     </div>
+<div class="flip"> 
+    <div class="front"> 
+        <img src="figs/mi2factorMerger.jpg" alt="" />
+    </div> 
+    <div class="back">
+        <h3>factorMerger</h3> An package for visual exploration of relation between groups.<br/>
+        <a href="https://github.com/MI2DataLab/factorMerger">GitHub</a>
+    </div> 
+</div>
+      </div>
+      <div class="main-col main-col-3">
+<div class="flip"> 
+    <div class="front"> 
+        <img src="figs/mi2randomForest.jpg" alt="" />
+    </div> 
+    <div class="back">
+        <h3>randomForestExplainer</h3> An package for visual exploration of random Forest models.<br/>
+        <a href="https://github.com/MI2DataLab/randomForestExplainer">GitHub</a>
+    </div> 
+</div>
+      </div>
   </div>
 
       </div>
     </div>
-
-    {% include footer.html %}
-
+    <!-- include footer.html -->
   </body>
-
 </html>
