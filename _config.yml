@@ -1,1 +1,11 @@
-theme: jekyll-theme-architect
+# Site settings
+title: MI2 webpage
+email: przemyslaw.biecek@gmail.com
+description: > # this means to ignore newlines until "baseurl:"
+  This is just a test
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "https://github.com/MI2DataLab" # the base hostname & protocol for your site
+github_username:  MI2DataLab
+
+# Build settings
+markdown: kramdown
