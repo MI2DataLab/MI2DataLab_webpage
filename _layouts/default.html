@@ -15,48 +15,38 @@ $(function(){
     <div class="container">
       <div class="row">
         <div class="col-lg-3 col-md-3 col-sm-3">
-            <div class="flip"> 
-                <div class="front"> 
-                    <img src="figs/mi2archivist.jpg" alt="" />
-                </div> 
-                <div class="back">
-                    archivist<br/><br/> An ultimate tool for full reproducibility of your results. Save, read, share your objects.<br/>
-                    <a href="https://github.com/pbiecek/archivist">GitHub</a>
-                </div> 
-            </div>          
+      {% include pageArchivist.html %}
         </div>
         <div class="col-lg-3 col-md-3 col-sm-3">
-            <div class="flip"> 
-                <div class="front"> 
-                    <img src="figs/mi2factorMerger.jpg" alt="" />
-                </div> 
-                <div class="back">
-                    factorMerger<br/><br/> An package for visual exploration of relation between groups.<br/>
-                    <a href="https://github.com/MI2DataLab/factorMerger">GitHub</a>
-                </div> 
-            </div>
+      {% include pageFactorMerger.html %}
         </div>
         <div class="col-lg-3 col-md-3 col-sm-3">
-            <div class="flip"> 
-                <div class="front"> 
-                    <img src="figs/mi2randomForest.jpg" alt="" />
-                </div> 
-                <div class="back">
-                    randomForestExplainer<br/><br/> An package for visual exploration of random Forest models.<br/>
-                    <a href="https://github.com/MI2DataLab/randomForestExplainer">GitHub</a>
-                </div> 
-            </div>
+      {% include pageRandomForest.html %}
         </div>
         <div class="col-lg-3 col-md-3 col-sm-3">
-            <div class="flip"> 
-                <div class="front"> 
-                    <img src="figs/mi2cr17.jpg" alt="" />
-                </div> 
-                <div class="back">
-                    cr17<br/><br/>An package for analysis of competing risks.<br/>
-                    <a href="https://github.com/MI2DataLab/cr17">GitHub</a>
-                </div> 
-            </div>
+      {% include pageBgmm.html %}
+        </div>
+        <div class="col-lg-3 col-md-3 col-sm-3">
+      {% include pageCr17.html %}
+        </div>
+        <div class="col-lg-3 col-md-3 col-sm-3">
+      {% include pageLive.html %}
+        </div>
+        <div class="col-lg-3 col-md-3 col-sm-3">
+      {% include pageRandomForest.html %}
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-lg-3 col-md-3 col-sm-3">
+      {% include pageEurostat.html %}
+        </div>
+        <div class="col-lg-3 col-md-3 col-sm-3">
+      {% include pageSejmRP.html %}
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-lg-3 col-md-3 col-sm-3">
+      {% include pageBetaBit.html %}
         </div>
       </div>
     </div>
